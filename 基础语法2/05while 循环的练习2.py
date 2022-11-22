@@ -4,6 +4,7 @@
 import random
 num = random.randint(1, 100)
 
+# 定义一个变量记录猜了多少次
 count = 0
 
 # 通过一个布尔类型的变量，做循环是否继续的标记
@@ -20,4 +21,4 @@ while flag:
         else:
             print("猜小了")
 
-print(count)
+print("总共猜了：", count)
